@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Visitor';
+  src: url('/src/assets/fonts/visitor.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Apple';
+  src: url('/src/assets/fonts/apple.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: Apple, Inter;
+  background-color: #eeeeee;
+}
+
+.font-visitor {
+  font-family: Visitor, Inter;
+}
