@@ -27,7 +27,6 @@ const currentTime = ref(hours + ': ' + minutes + ': ' + seconds)
 const pmam = ref(date.getHours() > 11 ? 'PM' : 'AM')
 const currentActive = ref(0)
 const NavLogo = ref(NavLogoItem[0])
-const isPlay = ref(false)
 onMounted(() => {
   intervalId = setInterval(() => {
     currentActive.value =
@@ -38,8 +37,10 @@ onMounted(() => {
 
 onMounted(() => {
   intervalId2 = setInterval(() => {
-    const hours =
-      date.getHours() >= 10 ? date.getHours() : '0' + date.getHours()
+    const date = new Date()
+    console.log(date.getUTCHours())
+    const hrs = date.getHours() > 12 ? date.getHours() - 12 : date.getHours()
+    const hours = hrs >= 10 ? hrs : '0' + hrs
     const minutes =
       date.getMinutes() >= 10 ? date.getMinutes() : '0' + date.getMinutes()
     const seconds =
@@ -50,10 +51,6 @@ onMounted(() => {
   }, 1000)
 })
 
-const handlePlay = () => {
-  isPlay.value = !isPlay.value
-}
-
 onUnmounted(() => {
   clearInterval(intervalId)
   clearInterval(intervalId2)
@@ -61,17 +58,13 @@ onUnmounted(() => {
 </script>
 <template>
   <nav
-    class="px-8 sm:text-base text-sm bg-[#eeeeee] flex pr-10 sm:fixed gap-y-5 flex-wrap w-full items-center justify-between py-5"
+    class="px-8 sm:text-base text-sm bg-[#fffff] flex pr-10 sm:fixed gap-y-5 flex-wrap w-full items-center justify-between py-5"
   >
     <h2 class="text-sm max-w-[12rem] w-full">{{ NavLogo }}</h2>
-    <div class="flex uppercase px-5 gap-6">
-      <p v-on:click="handlePlay" class="cursor-pointer" v-if="!isPlay">*OFF</p>
-      <p v-on:click="handlePlay" class="cursor-pointer" v-else>*ON</p>
-      <p>>INFO</p>
-    </div>
+
     <div>
       <p class="uppercase mr-16">Modest Internet activites</p>
-      <h2>{{ currentTime }}</h2>
+      <h2>{{ currentTime }} {{ pmam }}</h2>
     </div>
   </nav>
 </template>

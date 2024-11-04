@@ -8,36 +8,12 @@
       alt="img"
       class="rounded-full max-w-[20rem]"
     />
-    <div class="mt-10 tracking-wider leading-relaxed">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa dolor
-        vero? Cum aliquam veniam fuga temporibus beatae. Facilis quo fugiat
-        rerum animi deserunt? Ad cupiditate perspiciatis quibusdam recusandae
-        facere.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa dolor
-        vero? Cum aliquam veniam fuga temporibus beatae. Facilis quo fugiat
-        rerum animi deserunt? Ad cupiditate perspiciatis quibusdam recusandae
-        facere.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa dolor
-        vero? Cum aliquam veniam fuga temporibus beatae. Facilis quo fugiat
-        rerum animi deserunt? Ad cupiditate perspiciatis quibusdam recusandae
-        facere.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa dolor
-        vero? Cum aliquam veniam fuga temporibus beatae. Facilis quo fugiat
-        rerum animi deserunt? Ad cupiditate perspiciatis quibusdam recusandae
-        facere.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa dolor
-        vero? Cum aliquam veniam fuga temporibus beatae. Facilis quo fugiat
-        rerum animi deserunt? Ad cupiditate perspiciatis quibusdam recusandae
-        facere.
+    <h1 class="text-4xl mt-10">$ElonG8</h1>
+    <div class="mt-10 leading-relaxed">
+      <p class="flex flex-col">
+        A community that believes in Elons potential and collaborates to grow
+        together
+        <span class="self-end mt-2">- launched on G8Keep</span>
       </p>
     </div>
   </section>
