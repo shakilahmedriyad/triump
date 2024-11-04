@@ -8,12 +8,12 @@
       alt="img"
       class="rounded-full max-w-[20rem]"
     />
-    <h1 class="text-4xl mt-10">$ElonG8</h1>
-    <div class="mt-10 leading-relaxed">
+    <h1 class="text-4xl mt-16">$ElonG8</h1>
+    <div class="mt-16 leading-relaxed">
       <p class="flex flex-col">
         A community that believes in Elons potential and collaborates to grow
         together
-        <span class="self-end mt-2">- launched on G8Keep</span>
+        <span class="self-end mt-2">- created on G8Keep </span>
       </p>
     </div>
   </section>

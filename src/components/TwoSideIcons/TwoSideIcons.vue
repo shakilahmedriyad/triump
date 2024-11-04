@@ -7,10 +7,5 @@ import MainSection from '../MainSection/MainSection.vue'
       $
     </h2>
     <MainSection />
-    <h2
-      class="sm:fixed sm:pt-10 pt-48 top-[50%] text-[5rem] px-10 right-0 translate-y-[-50%]"
-    >
-      $
-    </h2>
   </section>
 </template>
