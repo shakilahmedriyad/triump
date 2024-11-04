@@ -12,6 +12,6 @@ import TwitterIcon from '../icons/TwitterIcon.vue'
         <TelegramIcon class-name="max-w-[2.8rem] w-full" />
       </a>
     </footer>
-    <p class="text-xs text-center">Elon's Vision, G8kept for greatness</p>
+    <!-- <p class="text-xs text-center">Elon's Vision, G8kept for greatness</p> -->
   </section>
 </template>
