@@ -16,9 +16,6 @@
         Elon's Vision, G8kept for greatness
         <span class="self-end mt-2">- created on G8Keep </span>
       </p>
-      <p class="mt-28 sm:text-base text-xs break-all">
-        0x9ecce4758ACC47ebD500B609aE00bC59Aa10Fe8b
-      </p>
     </div>
   </section>
 </template>
