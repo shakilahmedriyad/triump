@@ -14,7 +14,7 @@
         <!-- A community that believes in Elons potential and collaborates to grow
         together -->
         Elon's Vision, G8kept for greatness
-        <span class="self-end mt-2">- created on G8Keep </span>
+        <!-- <span class="self-end mt-2">- created on G8Keep </span> -->
       </p>
     </div>
   </section>
