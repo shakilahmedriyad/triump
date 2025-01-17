@@ -5,10 +5,10 @@ import TwitterIcon from '../icons/TwitterIcon.vue'
 <template>
   <section class="flex flex-col items-center mt-16 sm:mt-48 mb-10 gap-y-5">
     <footer class="flex justify-center gap-4">
-      <a href="http://x.com/G8Elon" target="_blank">
+      <a href="http://x.com/G8_Elon" target="_blank">
         <TwitterIcon class-name="max-w-[2.8rem] w-full" />
       </a>
-      <a href="https://t.me/G8Elon" target="_blank">
+      <a href="https://t.me/g8Elon" target="_blank">
         <TelegramIcon class-name="max-w-[2.8rem] w-full" />
       </a>
     </footer>
